@@ -42,7 +42,21 @@ h2{
     margin-bottom: 30px;
     background: #fde400;
     border-radius: 5px;
+    overflow: auto;
 }
+#result::-webkit-scrollbar {
+    width: 8px; 
+}
+
+#result::-webkit-scrollbar-thumb {
+    background: #333; 
+    border-radius: 5px; 
+}
+
+#result::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 
 .button-container{
     display: flex;
