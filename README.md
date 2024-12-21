@@ -1,1 +1,1 @@
-# TextToSpeech
+Click Record and Speak, It uses the web speech API 
