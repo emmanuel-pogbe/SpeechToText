@@ -42,3 +42,13 @@ function stopConverting()
     }
     
 }
+function copyText() {
+    const textToCopy = document.getElementById('result').innerText;
+    const temptext = document.createElement('textarea');
+    temptext.value = textToCopy;
+    document.body.appendChild(temptext);
+    temptext.select();
+    document.execCommand('copy');
+    document.body.removeChild(temptext);
+    alert("Text copied to clipboard!");
+}
